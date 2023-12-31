@@ -1,6 +1,6 @@
 /* Design nav-bar */
 #navigation-bar{
-    width: 98.6vw;
+    /* width: 100vw; */
     background-color: #1A2E35 !important;
     /* overflow: hidden; */
 }
@@ -34,10 +34,12 @@
 
 .btn-01{
     background-color: #FF4F5A;
+    border: none;
 }
 
 .btn-01:hover{
     background-color: #e44b55;
+    border: none;
 }
 
 .btn-02{
@@ -77,9 +79,19 @@
     border: none;
 }
 
-.btn-03, .btn-05, .btn-06{
+.btn-03, .btn-05{
     width: 100px;
     height: 40px;
+    border-radius: 5px;
+    background-color: #e44b55;
+    color: white;
+    border: none;
+}
+
+.btn-06{
+    width: 100px;
+    height: 45px;
+    border-radius: 2px;
     background-color: #e44b55;
     color: white;
     border: none;
@@ -88,6 +100,7 @@
 .btn-04{
     width: 100px;
     height: 40px;
+    border-radius: 5px;
     background-color: #1A2E35;
     color: white;
     border: none;
